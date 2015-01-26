@@ -13,6 +13,9 @@
 		AF0D9EEA1A76C6F200735DD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0D9EE91A76C6F200735DD7 /* Images.xcassets */; };
 		AF0D9EED1A76C6F200735DD7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF0D9EEB1A76C6F200735DD7 /* LaunchScreen.xib */; };
 		AF0D9EF91A76C6F200735DD7 /* LoveBugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D9EF81A76C6F200735DD7 /* LoveBugTests.swift */; };
+		AF0D9F031A76CD3200735DD7 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D9F021A76CD3200735DD7 /* SignupViewController.swift */; };
+		AF0D9F051A76D45800735DD7 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D9F041A76D45800735DD7 /* EditProfileViewController.swift */; };
+		AF0D9F071A76D46500735DD7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D9F061A76D46500735DD7 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		AF0D9EF21A76C6F200735DD7 /* LoveBugTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveBugTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0D9EF71A76C6F200735DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF0D9EF81A76C6F200735DD7 /* LoveBugTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveBugTests.swift; sourceTree = "<group>"; };
+		AF0D9F021A76CD3200735DD7 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		AF0D9F041A76D45800735DD7 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		AF0D9F061A76D46500735DD7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				AF0D9EE21A76C6F200735DD7 /* AppDelegate.swift */,
 				AF0D9EE41A76C6F200735DD7 /* ViewController.swift */,
 				AF0D9EE61A76C6F200735DD7 /* Main.storyboard */,
+				AF0D9F041A76D45800735DD7 /* EditProfileViewController.swift */,
+				AF0D9F061A76D46500735DD7 /* ProfileViewController.swift */,
+				AF0D9F021A76CD3200735DD7 /* SignupViewController.swift */,
 				AF0D9EE91A76C6F200735DD7 /* Images.xcassets */,
 				AF0D9EEB1A76C6F200735DD7 /* LaunchScreen.xib */,
 				AF0D9EE01A76C6F200735DD7 /* Supporting Files */,
@@ -212,6 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF0D9F051A76D45800735DD7 /* EditProfileViewController.swift in Sources */,
+				AF0D9F031A76CD3200735DD7 /* SignupViewController.swift in Sources */,
+				AF0D9F071A76D46500735DD7 /* ProfileViewController.swift in Sources */,
 				AF0D9EE51A76C6F200735DD7 /* ViewController.swift in Sources */,
 				AF0D9EE31A76C6F200735DD7 /* AppDelegate.swift in Sources */,
 			);

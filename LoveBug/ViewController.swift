@@ -19,7 +19,21 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        if segue.identifier == "signup"{
+            let vc = segue.destinationViewController as SignupViewController
+            println("HELLO");
+        }
+    }
 
-
+    @IBAction func Signup(sender: AnyObject) {
+        println("Signup");
+        performSegueWithIdentifier("signup", sender: sender)
+    }
+    @IBAction func Login(sender: UIButton) {
+        println("Login");
+        performSegueWithIdentifier("profile", sender: sender)
+    }
 }
 
