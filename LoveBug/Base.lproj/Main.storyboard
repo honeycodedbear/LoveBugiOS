@@ -133,14 +133,14 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdU-W9-52r">
-                                <rect key="frame" x="396" y="450" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <rect key="frame" x="396" y="450" width="62" height="30"/>
+                                <state key="normal" title="Message">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8W-VH-LoA">
-                                <rect key="frame" x="214" y="450" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <rect key="frame" x="214" y="450" width="30" height="30"/>
+                                <state key="normal" title="Like">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
