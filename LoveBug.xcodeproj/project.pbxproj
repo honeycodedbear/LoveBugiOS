@@ -16,6 +16,8 @@
 		AF0D9F031A76CD3200735DD7 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D9F021A76CD3200735DD7 /* SignupViewController.swift */; };
 		AF0D9F051A76D45800735DD7 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D9F041A76D45800735DD7 /* EditProfileViewController.swift */; };
 		AF0D9F071A76D46500735DD7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0D9F061A76D46500735DD7 /* ProfileViewController.swift */; };
+		AF76A3571A79BAAE0062B59B /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF76A3561A79BAAE0062B59B /* InboxViewController.swift */; };
+		B89ED799935A8D773C5A9255 /* libPods-LoveBug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1FEC66F52CED773CC279F8 /* libPods-LoveBug.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C1FEC66F52CED773CC279F8 /* libPods-LoveBug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoveBug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0D9EDD1A76C6F200735DD7 /* LoveBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0D9EE11A76C6F200735DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF0D9EE21A76C6F200735DD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +45,9 @@
 		AF0D9F021A76CD3200735DD7 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		AF0D9F041A76D45800735DD7 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		AF0D9F061A76D46500735DD7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AF76A3561A79BAAE0062B59B /* InboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
+		B24A50C0FFE8394F8E2C4734 /* Pods-LoveBug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveBug.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveBug/Pods-LoveBug.release.xcconfig"; sourceTree = "<group>"; };
+		D5C3236D3D1A2ED2132D8A7A /* Pods-LoveBug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveBug.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveBug/Pods-LoveBug.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B89ED799935A8D773C5A9255 /* libPods-LoveBug.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +69,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		423223E0B60BB9443CABD6B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5C3236D3D1A2ED2132D8A7A /* Pods-LoveBug.debug.xcconfig */,
+				B24A50C0FFE8394F8E2C4734 /* Pods-LoveBug.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4269B96058FD6DC38107FB88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C1FEC66F52CED773CC279F8 /* libPods-LoveBug.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AF0D9ED41A76C6F200735DD7 = {
 			isa = PBXGroup;
 			children = (
 				AF0D9EDF1A76C6F200735DD7 /* LoveBug */,
 				AF0D9EF51A76C6F200735DD7 /* LoveBugTests */,
 				AF0D9EDE1A76C6F200735DD7 /* Products */,
+				423223E0B60BB9443CABD6B4 /* Pods */,
+				4269B96058FD6DC38107FB88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +112,7 @@
 				AF0D9EE21A76C6F200735DD7 /* AppDelegate.swift */,
 				AF0D9EE41A76C6F200735DD7 /* ViewController.swift */,
 				AF0D9EE61A76C6F200735DD7 /* Main.storyboard */,
+				AF76A3561A79BAAE0062B59B /* InboxViewController.swift */,
 				AF0D9F041A76D45800735DD7 /* EditProfileViewController.swift */,
 				AF0D9F061A76D46500735DD7 /* ProfileViewController.swift */,
 				AF0D9F021A76CD3200735DD7 /* SignupViewController.swift */,
@@ -128,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF0D9EFC1A76C6F200735DD7 /* Build configuration list for PBXNativeTarget "LoveBug" */;
 			buildPhases = (
+				0D02FAF1E3B1B1B45271DA83 /* Check Pods Manifest.lock */,
 				AF0D9ED91A76C6F200735DD7 /* Sources */,
 				AF0D9EDA1A76C6F200735DD7 /* Frameworks */,
 				AF0D9EDB1A76C6F200735DD7 /* Resources */,
+				51DFFBFF9194482DD32A5D11 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,6 +199,7 @@
 				TargetAttributes = {
 					AF0D9EDC1A76C6F200735DD7 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = R26K65253S;
 					};
 					AF0D9EF11A76C6F200735DD7 = {
 						CreatedOnToolsVersion = 6.1;
@@ -216,12 +246,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D02FAF1E3B1B1B45271DA83 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51DFFBFF9194482DD32A5D11 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveBug/Pods-LoveBug-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF0D9ED91A76C6F200735DD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AF0D9F051A76D45800735DD7 /* EditProfileViewController.swift in Sources */,
+				AF76A3571A79BAAE0062B59B /* InboxViewController.swift in Sources */,
 				AF0D9F031A76CD3200735DD7 /* SignupViewController.swift in Sources */,
 				AF0D9F071A76D46500735DD7 /* ProfileViewController.swift in Sources */,
 				AF0D9EE51A76C6F200735DD7 /* ViewController.swift in Sources */,
@@ -346,21 +410,29 @@
 		};
 		AF0D9EFD1A76C6F200735DD7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5C3236D3D1A2ED2132D8A7A /* Pods-LoveBug.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LoveBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		AF0D9EFE1A76C6F200735DD7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B24A50C0FFE8394F8E2C4734 /* Pods-LoveBug.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LoveBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -417,6 +489,7 @@
 				AF0D9EFE1A76C6F200735DD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF0D9EFF1A76C6F200735DD7 /* Build configuration list for PBXNativeTarget "LoveBugTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +498,7 @@
 				AF0D9F011A76C6F200735DD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
